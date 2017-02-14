@@ -37,7 +37,7 @@ Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
-filetype plugin indent off
+filetype plugin indent on 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General                                                  " 
