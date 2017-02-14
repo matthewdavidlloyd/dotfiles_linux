@@ -56,15 +56,19 @@ PROMPT_COMMAND='set_prompt'
 alias python=python3
 alias pip=pip3
 
+# Nice color support
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+
 # Make ls nice
-alias ls="ls -d --color=always"
-alias ll="ls -l"
-alias ls="ls -a"
+alias ll='ls -l'
+alias la='ls -a'
 
 # Prevent Oh $#!7 moments
-alias rm="rm -i"
-alias mv="mv -i"
-alias cp="cp -i"
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
 
 # Cool little scripts
 alias weather="${HOME}/.scripts/ansiweather"  # Display weather at input location
