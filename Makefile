@@ -12,8 +12,10 @@ vimlinks:
 	rm -rf ~/.vim
 	mkdir $(HOME)/.vim
 	mkdir $(HOME)/.vim/functions
+	mkdir $(HOME)/.vim/ftplugin
 	ln -sf $(ROOT_DIR)/vimfiles/*.vim $(HOME)/.vim/functions
 	ln -sf $(ROOT_DIR)/vimfiles/vimrc $(HOME)/.vimrc
+	ln -sf $(ROOT_DIR)/vimfiles/ftplugin $(HOME)/.vim/ftplugin
 
 git:
 	ln -sf $(ROOT_DIR)/gitfiles/gitconfig $(HOME)/.gitconfig

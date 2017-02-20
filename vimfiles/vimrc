@@ -14,7 +14,6 @@ call plug#begin(g:plugin_path)
 
 " File 
 Plug 'scrooloose/nerdtree'
-
 Plug 'scrooloose/nerdcommenter'       " Better commenting
 
 " Statusline
@@ -31,6 +30,10 @@ Plug 'terryma/vim-multiple-cursors'   " Sublime Text style multiple cursors
 Plug 'tpope/vim-fugitive' | Plug 'junegunn/gv.vim'  " Git command wrappers
 Plug 'airblade/vim-gitgutter'                       " Show's what's changed
                                                     " since previous version
+" Python stuff
+Plug 'tmhedberg/SimpylFold'           " Nice folding
+Plug 'vim-scripts/indentpython.vim'   " Nice Indentation
+Plug 'nvie/vim-flake8'                " PEP8 Checking
 
 " Colours
 Plug 'altercation/vim-colors-solarized'
